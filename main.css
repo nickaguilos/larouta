@@ -1,0 +1,47 @@
+main {
+  max-width: 700px;
+  font-family: "SF Pro", sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  margin: 5% auto;
+  background-color: #fff; }
+
+h1, h2, h3, h4 {
+  font-family: monotalic-wide, "SF Mono", monospace;
+  font-weight: 700;
+  line-height: 1em; }
+
+h1 {
+  font-size: 50px;
+  margin: 1.5em 0 0 0; }
+
+a {
+  color: orange;
+  text-decoration: underline; }
+
+#image-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  #image-wrapper #logo {
+    width: 300px; }
+  #image-wrapper #arws {
+    width: 163px; }
+
+#decorative-squares > div {
+  width: 50vw;
+  height: 16px;
+  position: absolute;
+  top: 0; }
+#decorative-squares .yellow {
+  background-color: #ffcc02;
+  right: 0; }
+#decorative-squares .blue {
+  background-color: #295077;
+  left: 0; }
+
+@media screen and (max-width: 700px) {
+  body {
+    padding: 2em; } }
+
+/*# sourceMappingURL=main.css.map */
