@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Routa 2025 | Home</title>
 
+    <!-- Font load -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
+    
 </head>
-<body>
+<body id="larouta-2025" class="home">
     <!-- Site Head -->
     <header id="site-head">
-        <img src="../images/logos/larouta-white.png" alt="La Routa Logo">
+        <img src="../images/logos/larouta-white.png" id="larouta-logo" alt="La Routa Logo">
 
         <nav>
             <a href="#">Home</a>
@@ -25,10 +30,12 @@
     <!-- Main Body -->
     <main id="site-body">
         <!-- Page Head -->
-        <header>
+        <header id="page-head" class="container">
             <h1>La Routa: <br> Asia Championship Race for Adventure Racing World Series - Asia Region</h1>
             <section class="action-bar">
-                <a href="#" class="button">Register -></a>       
+                <div>
+                    <a href="#" class="button">Register -></a>    
+                </div>   
 
                 <span>
                     November 24-29, 2025
@@ -120,12 +127,70 @@
             2025 graphics here
         </section>
 
+        <!-- Hero Image 2 -->
+        <img src="../images/heroes/hero-2.jpg" alt="Image of Biliran">
 
+        <section id="biliran-details">
+            <article>
+                <div>
+                    <img src="../images/logos/dot.png" alt="DOT Logo">
+                    <img src="../images/graphics/love-ph-small.png" alt="Love the Philippines">
+                </div>
+
+                <h2>
+                    Biliran Island. The perfect backdrop for a race of this calibre
+                </h2>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, mollitia explicabo? Sed dolore voluptate libero sequi inventore voluptates ex quasi explicabo enim possimus amet odio cumque, optio eos illum corrupti praesentium! Doloremque delectus illum suscipit dolorum nobis dolores corrupti.
+                </p>
+            </article>
+
+            <img src="../images/graphics/biliran-satellite.png" alt="Satellite map of Biliran Is">
+        </section>
 
     </main>
 
+    <!-- Site Footer -->
     <footer id="site-foot">
-        <!-- Footer -->
+        <h2>La Routa Adventure Race is presented by:</h2>
+
+        <ul id="footer-major-sponsor-list">
+            <li>
+                Department of Tourism 8
+                <img src="../images/logos/dot.png" alt="DOT Logo">
+            </li>
+
+            <li>
+                Provincial Government of Biliran
+                <img src="../images/logos/biliran.png" alt="Biliran Logo">
+            </li>
+
+            <li>
+                Bukid Outdoor Shop
+                <img src="../images/logos/bukid.png" alt="Bukid Logo">
+            </li>
+
+            <li>
+                Adventure Racing World Series
+                <img src="../images/logos/arws-lime.png" alt="ARWS Logo">
+            </li>
+
+            <li>
+                Pitman Outdoors
+                <img src="../images/logos/pitman.png" alt="Pitman Logo">
+            </li>
+        </ul>
+
+        <ul id="footer-subsponsor-list">
+            <li>
+                <div>
+                    Site design, development, & overall branding
+                    <strong>Nick Aguilos Studio</strong>
+                </div>
+                <img src="../images/logos/nick-aguilos-studio.png" alt="DOT Logo">
+            </li>
+        </ul>
     </footer>
 </body>
 </html> 

@@ -1,0 +1,38 @@
+/* 
+    La Routa 2025 Main Stylesheets  
+    Coded: Nick Aguilos Studio | January 2025    
+*/
+#larouta-2025 {
+  background-color: #171819;
+  color: #fff;
+  font-family: "Jetbrains Mono", serif;
+}
+#larouta-2025 .container {
+  max-width: 980px;
+  margin: auto;
+}
+#larouta-2025 h1 {
+  font-size: 60px;
+}
+#larouta-2025 .button {
+  background-color: #1D1BFF;
+  color: #fff;
+  padding: 12px 21px;
+}
+#larouta-2025 #site-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: url("../images/graphics/head-pattern.png") 0 -40px repeat-x;
+  padding: 50px;
+}
+#larouta-2025 #site-head #larouta-logo {
+  width: 218px;
+}
+#larouta-2025.home #page-head .action-bar {
+  display: flex;
+  justify-content: space-between;
+}
+#larouta-2025.home #page-head img {
+  width: 95px;
+}/*# sourceMappingURL=main.css.map */
