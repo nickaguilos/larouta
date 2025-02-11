@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+
+	<!-- Swiper JS stylesheet load -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+	<!-- Main stylesheet load -->
     <link rel="stylesheet" href="../css/main.css">
     
 </head>
@@ -37,10 +42,10 @@
                     <a href="#" class="button">Register -></a>    
                 </div>   
 
-                <span>
-                    November 24-29, 2025
-                    Biliran Island, Philippines <br>
-                </span>
+                <sub>
+                    November 24-29, 2025 <br>
+                    Biliran Island, Philippines 
+				</sub>
 
                 <div>
                     <img src="../images/logos/arws-blue-on-white-small.png" alt="Philippine Flag">
@@ -50,30 +55,44 @@
         </header>
 
         <!-- Image Scroller -->
-        <section id="image-scroller" class="scroller">
-            <a href="#" class="scroll-item">
-                <img src="https://picsum.photos/300/388" alt="Sample Image">
-            </a>
-            <a href="#" class="scroll-item">
-                <img src="https://picsum.photos/300/388" alt="Sample Image">
-            </a>
-            <a href="#" class="scroll-item">
-                <img src="https://picsum.photos/300/388" alt="Sample Image">
-            </a>
-            <a href="#" class="scroll-item">
-                <img src="https://picsum.photos/300/388" alt="Sample Image">
-            </a>
-            <a href="#" class="scroll-item">
-                <img src="https://picsum.photos/300/388" alt="Sample Image">
-            </a>
-            <a href="#" class="scroll-item">
-                <img src="https://picsum.photos/300/388" alt="Sample Image">
-            </a>
+        <section id="image-scroller" class="scroller swiper">
+            <div class="swiper-wrapper">
+				<a href="#" class="scroll-item swiper-slide">
+					<img src="https://picsum.photos/300/388" alt="Sample Image">
+				</a>
+				<a href="#" class="scroll-item swiper-slide">
+					<img src="https://picsum.photos/300/388" alt="Sample Image">
+				</a>
+				<a href="#" class="scroll-item swiper-slide">
+					<img src="https://picsum.photos/300/388" alt="Sample Image">
+				</a>
+				<a href="#" class="scroll-item swiper-slide">
+					<img src="https://picsum.photos/300/388" alt="Sample Image">
+				</a>
+				<a href="#" class="scroll-item swiper-slide">
+					<img src="https://picsum.photos/300/388" alt="Sample Image">
+				</a>
+				<a href="#" class="scroll-item swiper-slide">
+					<img src="https://picsum.photos/300/388" alt="Sample Image">
+				</a>
+			</div>
+
+			<!-- If we need pagination -->
+			<div class="swiper-pagination"></div>
+
+			<!-- If we need navigation buttons -->
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+
+			<!-- If we need scrollbar -->
+			<div class="swiper-scrollbar"></div>
         </section>
 
         <!-- About ARWS -->
-        <section id="about-arws">
-            <img src="../images/logos/arws-lime.png" alt="ARWS Logo">
+        <section id="about-arws" class="container">
+            <div>
+				<img src="../images/logos/arws-lime.png" alt="ARWS Logo">
+			</div>
             <div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ab ipsa tenetur nulla, tempore autem unde! Corrupti atque reprehenderit sit beatae eaque, odit pariatur ex est temporibus. Quis, autem. Voluptatum!</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis in, numquam reprehenderit delectus recusandae pariatur libero nesciunt fugit id consequuntur.</p>
@@ -82,10 +101,10 @@
             </div>
 
         <!-- Hero Image - 1 -->
-        <img src="../images/heroes/hero-1.jpg" alt="Image of team in La Routa 2023">
+        <img src="../images/heroes/hero-1.jpg" class="hero" alt="Image of team in La Routa 2023">
 
         <!-- About La Routa -->
-        <section id="about-la-routa">
+        <section id="about-la-routa" class="container">
             <ol>
                 <li>
                     <span>300 <br> Kilometers</span>
@@ -128,9 +147,9 @@
         </section>
 
         <!-- Hero Image 2 -->
-        <img src="../images/heroes/hero-2.jpg" alt="Image of Biliran">
+        <img src="../images/heroes/hero-2.jpg" class="hero" alt="Image of Biliran">
 
-        <section id="biliran-details">
+        <section id="biliran-details" class="container">
             <article>
                 <div>
                     <img src="../images/logos/dot.png" alt="DOT Logo">
@@ -192,5 +211,10 @@
             </li>
         </ul>
     </footer>
+
+
+	<!-- Scripts -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<!-- <script src="../js/frontend.js"></script> -->
 </body>
 </html> 

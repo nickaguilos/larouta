@@ -1,0 +1,25 @@
+/*
+	Homepage styles
+*/
+
+@use '../utilities/colors' as v;
+.home {
+	#page-head {
+		padding: 5vw 0;
+
+		.action-bar {
+			display: flex;
+			justify-content: space-between;
+			border-top: 1px solid v.$border;
+			padding: 1em 0;
+		}
+
+		img {
+			width: 95px;
+		}
+	}
+
+	#about-arws {
+		display: flex;
+	}
+}

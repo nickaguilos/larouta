@@ -1,0 +1,17 @@
+/*
+	Site head
+*/
+
+#site-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-image: url('../images/graphics/head-pattern.png');
+	background-repeat: repeat-x;
+	background-size: 300px 24px;
+	padding: 50px;
+
+	#larouta-logo {
+		width: 218px;
+	}
+}
