@@ -4,14 +4,23 @@
 
 @use '../utilities/colors' as v;
 .home {
+
+	// Page head
 	#page-head {
 		padding: 5vw 0;
 
 		.action-bar {
 			display: flex;
 			justify-content: space-between;
+			align-items: center;
 			border-top: 1px solid v.$border;
 			padding: 1em 0;
+			gap: 2em;
+
+			// Flex children
+			sub {
+				flex: 2;
+			}
 		}
 
 		img {
@@ -19,6 +28,12 @@
 		}
 	}
 
+	// Image scroller
+	#image-scroller {
+		height: 400px;
+	}
+
+	// About ARWS
 	#about-arws {
 		display: flex;
 	}
