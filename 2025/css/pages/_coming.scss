@@ -1,0 +1,42 @@
+/*
+	Coming page styles
+*/
+
+@use '../utilities/colors' as v;
+.teaser {
+
+	// Page head
+	#page-head {
+		padding: 5vw 0;
+
+		.action-bar {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			border-top: 1px solid v.$border;
+			padding: 2em 0;
+			gap: 2em;
+		}
+
+        #subtext {
+            color: v.$primary-yellow;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 32px 0;
+
+            img {
+                width: 100px;
+            }
+        }
+
+		img {
+			width: 200px;
+		}
+	}
+
+    #site-foot {
+        border-top: 1px solid v.$border;
+        padding: 2em 0;
+    }
+}
