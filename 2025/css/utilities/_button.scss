@@ -1,0 +1,13 @@
+/*
+	Button
+*/
+
+@use 'colors' as v;
+
+.button {
+	display: inline-block;
+	background-color: v.$primary-blue;
+	color: #fff;
+	padding: 12px 21px;
+	text-decoration: none;
+}

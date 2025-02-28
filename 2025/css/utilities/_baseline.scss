@@ -1,0 +1,17 @@
+/*
+	Baseline and resets
+*/
+
+@use 'colors' as v;
+
+// Reset 
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: v.$black;
+	color: v.$white;
+}
+
+.hero {
+	width: 100vw;
+}

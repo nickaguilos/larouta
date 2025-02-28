@@ -1,0 +1,151 @@
+/* 
+    La Routa 2025 Main Stylesheets  
+    Coded: Nick Aguilos Studio | January 2025    
+*/
+/*
+
+	La Routa '25 Variables
+
+*/
+/* 
+    La Routa 2025 Main Stylesheets  
+    Coded: Nick Aguilos Studio | January 2025    
+*/
+/*
+	Baseline and resets
+*/
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.hero {
+  width: 100vw;
+}
+
+/*
+	Grid
+*/
+.container {
+  max-width: 980px;
+  margin: auto;
+}
+
+/*
+	Typography
+*/
+html {
+  font-family: "Jetbrains Mono", monospace;
+}
+
+p, sub {
+  font-family: "Inter", sans-serif;
+}
+
+sub {
+  opacity: 0.5;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+/* 
+    La Routa 2025 Main Stylesheets  
+    Coded: Nick Aguilos Studio | January 2025    
+*/
+/*
+	Button
+*/
+.button {
+  display: inline-block;
+  background-color: #1D1BFF;
+  color: #fff;
+  padding: 12px 21px;
+  text-decoration: none;
+}
+
+/*
+	Site head
+*/
+#site-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("../images/graphics/head-pattern.png");
+  background-repeat: repeat-x;
+  background-size: 300px 24px;
+  padding: 50px;
+}
+#site-head #larouta-logo {
+  width: 218px;
+}
+
+/* 
+    La Routa 2025 Main Stylesheets  
+    Coded: Nick Aguilos Studio | January 2025    
+*/
+/*
+	Homepage styles
+*/
+.home #page-head {
+  padding: 5vw 0;
+}
+.home #page-head .action-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ABABAB;
+  padding: 1em 0;
+  gap: 2em;
+}
+.home #page-head .action-bar sub {
+  flex: 2;
+}
+.home #page-head img {
+  width: 95px;
+}
+.home #image-scroller {
+  height: 400px;
+}
+.home #about-arws {
+  display: flex;
+}
+
+/* 
+    La Routa 2025 Main Stylesheets  
+    Coded: Nick Aguilos Studio | January 2025    
+*/
+/*
+	Coming page styles
+*/
+.teaser #page-head {
+  padding: 5vw 0;
+}
+.teaser #page-head .action-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ABABAB;
+  padding: 2em 0;
+  gap: 2em;
+}
+.teaser #page-head #subtext {
+  color: #FFF600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+.teaser #page-head #subtext img {
+  width: 100px;
+}
+.teaser #page-head img {
+  width: 200px;
+}
+.teaser #site-foot {
+  border-top: 1px solid #ABABAB;
+  padding: 2em 0;
+}/*# sourceMappingURL=main.css.map */
