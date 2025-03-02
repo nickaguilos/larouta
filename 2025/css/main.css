@@ -148,4 +148,9 @@ h1 {
 .teaser #site-foot {
   border-top: 1px solid #ABABAB;
   padding: 2em 0;
+}
+@media screen and (max-width: 800px) {
+  .teaser .container {
+    padding: 1.5em !important;
+  }
 }/*# sourceMappingURL=main.css.map */
