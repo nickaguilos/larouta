@@ -39,4 +39,12 @@
         border-top: 1px solid v.$border;
         padding: 2em 0;
     }
+
+	// Responsive styles
+	@media screen and (max-width: 800px) {
+		.container {
+			padding: 1.5em !important;
+		}
+	}
+	// End responsive styles
 }
