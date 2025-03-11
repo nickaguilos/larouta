@@ -29,7 +29,7 @@ html, body {
 	Grid
 */
 .container {
-  max-width: 900px;
+  max-width: 960px;
   margin: auto;
 }
 
@@ -37,15 +37,19 @@ html, body {
 	Typography
 */
 html {
-  font-family: "Jetbrains Mono", monospace;
-}
-
-p, sub {
-  font-family: "Inter", sans-serif;
+  font-family: "Parabolica", sans-serif;
+  font-size: 16px/1em;
+  line-height: 1.5em;
 }
 
 sub {
   opacity: 0.5;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Jetbrains Mono", sans-serif;
+  font-weight: 500;
+  line-height: 1.3em;
 }
 
 h1 {
