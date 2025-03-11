@@ -71,6 +71,19 @@ h1 {
   text-decoration: none;
 }
 
+.scroll-item {
+  width: 300px;
+  height: 388px;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.swiper-wrapper {
+  display: flex;
+  width: 100vw;
+  overflow-x: scroll;
+}
+
 /*
 	Site head
 */
@@ -85,6 +98,11 @@ h1 {
 }
 #site-head #larouta-logo {
   width: 218px;
+}
+
+#site-foot {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* 

@@ -9,10 +9,11 @@
 @use 'utilities/grid';
 @use 'utilities/typography';
 @use 'utilities/button';
+@use 'utilities/swiper';
 
 // Components
 @use 'components/site-head';
-
+@use 'components/site-foot';
 // Pages
 @use 'pages/home';
 @use 'pages/teaser';
