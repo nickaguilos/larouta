@@ -104,6 +104,10 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
+#site-foot .social-icon {
+  width: 32px;
+  height: 32px;
+}
 
 /* 
     La Routa 2025 Main Stylesheets  
