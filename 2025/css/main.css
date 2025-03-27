@@ -1,81 +1,69 @@
-/* 
-    La Routa 2025 Main Stylesheets  
-    Coded: Nick Aguilos Studio | January 2025    
-*/
-/*
-
-	La Routa '25 Variables
-
-*/
-/* 
-    La Routa 2025 Main Stylesheets  
-    Coded: Nick Aguilos Studio | January 2025    
-*/
-/*
-	Baseline and resets
-*/
-html, body {
-  margin: 0;
-  padding: 0;
-  background-color: #000000;
-  color: #FFFFFF;
-}
-
-.hero {
-  width: 100vw;
-}
-
-/*
-	Grid
-*/
-.container {
-  max-width: 960px;
-  margin: auto;
-}
-
-/*
-	Typography
-*/
-html {
-  font-family: "Parabolica", sans-serif;
-  font-size: 16px/1em;
-  line-height: 1.5em;
-}
-
-sub {
-  opacity: 0.5;
+body {
+  max-width: 700px;
+  font-family: "SF Pro", sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  margin: 5% auto;
+  background-color: #fff;
 }
 
 h1, h2, h3, h4 {
-  font-family: "Jetbrains Mono", sans-serif;
-  font-weight: 500;
-  line-height: 1.3em;
+  font-family: monotalic-wide, "SF Mono", monospace;
+  font-weight: 700;
+  line-height: 1em;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
+  margin: 1.5em 0 0 0;
 }
 
-/* 
-    La Routa 2025 Main Stylesheets  
-    Coded: Nick Aguilos Studio | January 2025    
-*/
-/*
-	Button
-*/
-.button {
-  display: inline-block;
-  background-color: #1D1BFF;
-  color: #fff;
-  padding: 12px 21px;
-  text-decoration: none;
+a {
+  color: orange;
+  text-decoration: underline;
 }
 
-.scroll-item {
+#image-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#image-wrapper #logo {
   width: 300px;
-  height: 388px;
-  display: inline-block;
-  margin-right: 1em;
+}
+#image-wrapper #arws {
+  width: 163px;
+}
+
+#decorative-squares > div {
+  width: 50vw;
+  height: 16px;
+  position: absolute;
+  top: 0;
+}
+#decorative-squares .yellow {
+  background-color: #ffcc02;
+  right: 0;
+}
+#decorative-squares .blue {
+  background-color: #295077;
+  left: 0;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    padding: 2em;
+  }
+  #image-wrapper #logo {
+    width: 200px;
+  }
+  #image-wrapper #arws {
+    width: 100px;
+  }
+  h1 {
+    margin: 0.5em 0;
+  }
+}/*# sourceMappingURL=main.css.map */rgin-right: 1em;
 }
 
 .swiper-wrapper {
