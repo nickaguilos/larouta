@@ -39,6 +39,10 @@ html, body {
   margin: auto;
 }
 
+/* 
+    La Routa 2025 Main Stylesheets  
+    Coded: Nick Aguilos Studio | January 2025    
+*/
 /*
 	Typography
 */
@@ -54,6 +58,11 @@ sub {
 
 p {
   line-height: 1.33em;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 h1, h2, h3, h4 {
@@ -145,7 +154,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid #ABABAB;
+  border-top: 1px solid #2A2A2A;
   padding: 1em 0;
   gap: 2em;
 }
@@ -176,7 +185,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid #ABABAB;
+  border-top: 1px solid #2A2A2A;
   padding: 2em 0;
   gap: 2em;
 }
@@ -194,8 +203,9 @@ h3 {
   width: 200px;
 }
 .teaser #site-foot {
-  border-top: 1px solid #ABABAB;
+  border-top: 1px solid #2A2A2A;
   padding: 2em 0;
+  font-size: 14px;
 }
 @media screen and (max-width: 800px) {
   .teaser .container {
