@@ -64,12 +64,22 @@ a {
 
 h1, h2, h3, h4 {
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 1.3em;
+}
+@media screen and (max-width: 768px) {
+  h1, h2, h3, h4 {
+    line-height: 1.2em;
+  }
 }
 
 .hero-text {
   font-size: 3.5em;
+}
+@media screen and (max-width: 768px) {
+  .hero-text {
+    font-size: 3em;
+  }
 }
 
 h1 {
@@ -225,9 +235,9 @@ h3 {
   padding: 2em 0;
   font-size: 14px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .teaser .container {
-    padding: 1.5em !important;
+    padding: 0 1.5em;
   }
   .teaser .action-bar {
     flex-direction: column;

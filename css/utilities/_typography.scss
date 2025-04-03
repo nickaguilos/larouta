@@ -3,6 +3,7 @@
 */
 
 @use 'colors' as c;
+@use 'variables' as v;
 
 html {
 	font-family: 'Inter', sans-serif;
@@ -25,12 +26,19 @@ a {
 }
 h1, h2, h3, h4 {
 	font-family: 'Inter', sans-serif;
-	font-weight: 500;
+	font-weight: bold;
 	line-height: 1.3em;
+
+	@media screen and (max-width: v.$md) {
+		line-height: 1.2em;
+	}
 }
 
 .hero-text {
 	font-size: 3.5em;
+	@media screen and (max-width: v.$md) {
+		font-size: 3em;
+	}
 }
 
 h1 {

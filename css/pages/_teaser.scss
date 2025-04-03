@@ -64,9 +64,9 @@
     }
 
 	// Responsive styles
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: v.$md) {
 		.container {
-			padding: 1.5em !important;
+			padding: 0 1.5em;
 		}
 
 		.action-bar {
