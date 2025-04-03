@@ -3,7 +3,10 @@
 */
 
 @use '../utilities/colors' as c;
-.teaser {
+.teaser {	
+	#site-head {
+		padding: 20px 0;
+	}
 
 	// Page head
 	#page-head {
@@ -49,6 +52,11 @@
 
 		.action-bar {
 			flex-direction: column;
+		}
+
+		#site-foot {
+			flex-direction: column;
+			gap: 1em;
 		}
 	}
 	// End responsive styles

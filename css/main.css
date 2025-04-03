@@ -178,6 +178,9 @@ h3 {
 /*
 	Coming page styles
 */
+.teaser #site-head {
+  padding: 20px 0;
+}
 .teaser #page-head {
   padding: 0;
 }
@@ -213,5 +216,9 @@ h3 {
   }
   .teaser .action-bar {
     flex-direction: column;
+  }
+  .teaser #site-foot {
+    flex-direction: column;
+    gap: 1em;
   }
 }/*# sourceMappingURL=main.css.map */
