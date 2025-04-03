@@ -151,7 +151,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid #2A2A2A;
+  border-top: 1px solid #D1DAE7;
   padding: 1em 0;
   gap: 2em;
 }
@@ -217,8 +217,11 @@ h3 {
 .teaser #page-head #subtext img {
   width: 80px;
 }
+.teaser #teaser-content {
+  max-width: 768px;
+}
 .teaser #site-foot {
-  border-top: 1px solid #2A2A2A;
+  border-top: 1px solid #D1DAE7;
   padding: 2em 0;
   font-size: 14px;
 }

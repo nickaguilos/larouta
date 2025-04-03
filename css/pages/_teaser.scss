@@ -52,6 +52,10 @@
             }
         }
 	}
+	
+	#teaser-content {
+		max-width: v.$md;
+	}
 
     #site-foot {
         border-top: 1px solid c.$border;
