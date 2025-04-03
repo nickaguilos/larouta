@@ -3,7 +3,7 @@
 */
 
 html {
-	font-family: 'Parabolica', sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-size: 16px / 1em;
 	line-height: 1.33em;
 }
@@ -12,12 +12,28 @@ sub {
 	opacity: 0.5;
 }
 
+p {
+	line-height: 1.33em;
+}
+
 h1, h2, h3, h4 {
-	font-family: 'Jetbrains Mono', sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-weight: 500;
 	line-height: 1.3em;
 }
 
+.hero-text {
+	font-size: 3.5em;
+}
+
 h1 {
-	font-size: 60px;
+	font-size: 2.625em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
 }

@@ -2,14 +2,19 @@
 	Baseline and resets
 */
 
-@use 'colors' as v;
+@use 'colors' as c;
 
 // Reset 
 html, body {
 	margin: 0;
 	padding: 0;
-	background-color: v.$black;
-	color: v.$white;
+	background-color: c.$black;
+	color: c.$white;
+	box-sizing: border-box;
+
+	@media screen and (max-width: 800px) {
+		font-size: 14px;
+	}
 }
 
 .hero {

@@ -2,24 +2,24 @@
 	Coming page styles
 */
 
-@use '../utilities/colors' as v;
+@use '../utilities/colors' as c;
 .teaser {
 
 	// Page head
 	#page-head {
-		padding: 5vw 0;
+		padding: 0;
 
 		.action-bar {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			border-top: 1px solid v.$border;
+			border-top: 1px solid c.$border;
 			padding: 2em 0;
 			gap: 2em;
 		}
 
         #subtext {
-            color: v.$primary-yellow;
+            color: c.$primary-yellow;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -36,7 +36,7 @@
 	}
 
     #site-foot {
-        border-top: 1px solid v.$border;
+        border-top: 1px solid c.$border;
         padding: 2em 0;
     }
 
@@ -44,6 +44,10 @@
 	@media screen and (max-width: 800px) {
 		.container {
 			padding: 1.5em !important;
+		}
+
+		.action-bar {
+			flex-direction: column;
 		}
 	}
 	// End responsive styles
