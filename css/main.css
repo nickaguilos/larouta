@@ -58,6 +58,7 @@ sub {
 
 p {
   line-height: 1.33em;
+  font-weight: 400;
 }
 
 a {
