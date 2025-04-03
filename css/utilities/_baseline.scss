@@ -8,15 +8,11 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background-color: c.$black;
-	color: c.$white;
+	background-color: c.$dark-gray;
+	color: c.$blue-2;
 	box-sizing: border-box;
 
 	@media screen and (max-width: 800px) {
 		font-size: 14px;
 	}
-}
-
-.hero {
-	width: 100vw;
 }

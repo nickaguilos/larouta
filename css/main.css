@@ -17,18 +17,14 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: #222222;
+  color: #D1DAE7;
   box-sizing: border-box;
 }
 @media screen and (max-width: 800px) {
   html, body {
     font-size: 14px;
   }
-}
-
-.hero {
-  width: 100vw;
 }
 
 /*
@@ -63,7 +59,7 @@ p {
 
 a {
   color: #FFFFFF;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 h1, h2, h3, h4 {
@@ -97,7 +93,7 @@ h3 {
 */
 .button {
   display: inline-block;
-  background-color: #1D1BFF;
+  background-color: #161E4D;
   color: #fff;
   padding: 12px 21px;
   text-decoration: none;
@@ -125,7 +121,7 @@ h3 {
   justify-content: space-between;
   background-image: url("../images/graphics/head-pattern.png");
   background-repeat: repeat-x;
-  background-size: 300px 24px;
+  background-size: 1000px 16px;
   padding: 50px;
 }
 #site-head #larouta-logo {
@@ -184,27 +180,42 @@ h3 {
 }
 .teaser #page-head {
   padding: 0;
+  text-align: center;
 }
-.teaser #page-head .action-bar {
+.teaser #page-head .logo-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid #2A2A2A;
   padding: 2em 0;
   gap: 2em;
 }
+@media screen and (max-width: 480px) {
+  .teaser #page-head .logo-bar {
+    flex-direction: column;
+  }
+  .teaser #page-head .logo-bar img {
+    width: 200px !important;
+  }
+}
+.teaser #page-head .logo-bar img {
+  width: 200px;
+}
+@media screen and (max-width: 768px) {
+  .teaser #page-head .logo-bar img {
+    width: 150px;
+  }
+}
 .teaser #page-head #subtext {
-  color: #FFF600;
+  color: #F6CC15;
   display: flex;
+  flex-direction: column;
+  gap: 1em;
   align-items: center;
   justify-content: space-between;
   padding: 32px 0;
 }
 .teaser #page-head #subtext img {
-  width: 100px;
-}
-.teaser #page-head img {
-  width: 200px;
+  width: 80px;
 }
 .teaser #site-foot {
   border-top: 1px solid #2A2A2A;
@@ -220,6 +231,8 @@ h3 {
   }
   .teaser #site-foot {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     gap: 1em;
   }
 }/*# sourceMappingURL=main.css.map */

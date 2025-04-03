@@ -6,10 +6,12 @@
 // Utilities
 @use 'utilities/colors';
 @use 'utilities/baseline';
+@use 'utilities/variables';
 @use 'utilities/grid';
 @use 'utilities/typography';
 @use 'utilities/button';
 @use 'utilities/swiper';
+
 
 // Components
 @use 'components/site-head';
