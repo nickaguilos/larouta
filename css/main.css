@@ -126,6 +126,10 @@ h3 {
   overflow-x: scroll;
 }
 
+/* 
+    La Routa 2025 Main Stylesheets  
+    Coded: Nick Aguilos Studio | January 2025    
+*/
 /*
 	Site head
 */
@@ -137,10 +141,21 @@ h3 {
   background-repeat: repeat-x;
   background-size: 1000px 36px;
   padding: 50px;
+  gap: 1em;
+  border-bottom: 1px solid #D1DAE7;
 }
 #site-head #larouta-logo {
   display: block;
   width: 218px;
+}
+#site-head #site-nav {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#site-head #site-nav a {
+  padding: 1em;
 }
 #site-head a {
   text-decoration: none;
@@ -184,6 +199,10 @@ h3 {
 }
 .home #about-arws {
   display: flex;
+  gap: 2em;
+}
+.home #about-arws #arws-logo {
+  border: 1px solid #D1DAE7;
 }
 
 /* 

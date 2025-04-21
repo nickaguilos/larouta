@@ -2,6 +2,8 @@
 	Site head
 */
 
+@use '../utilities/colors' as c;
+
 #site-head {
 	display: flex;
 	align-items: center;
@@ -10,10 +12,26 @@
 	background-repeat: repeat-x;
 	background-size: 1000px 36px;
 	padding: 50px;
+	gap: 1em;
+	border-bottom: 1px solid c.$border;
 
 	#larouta-logo {
 		display: block;
 		width: 218px;
+		// flex-grow: 1;
+	}
+
+	#site-nav {
+		// flex-grow: 2;
+		width: 70vw;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		a {
+			padding: 1em;
+		}
+
 	}
 
 	a {

@@ -2,7 +2,7 @@
 	Homepage styles
 */
 
-@use '../utilities/colors' as v;
+@use '../utilities/colors' as c;
 .home {
 
 	// Page head
@@ -13,7 +13,7 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			border-top: 1px solid v.$border;
+			border-top: 1px solid c.$border;
 			padding: 1em 0;
 			gap: 2em;
 
@@ -36,6 +36,11 @@
 	// About ARWS
 	#about-arws {
 		display: flex;
+		gap: 2em;
+
+		#arws-logo {
+			border: 1px solid c.$border;
+		}
 	}
 
 	
