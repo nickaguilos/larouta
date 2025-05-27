@@ -17,7 +17,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #222222;
+  background-color: #111111;
   color: #D1DAE7;
   box-sizing: border-box;
 }
@@ -25,6 +25,10 @@ html, body {
   html, body {
     font-size: 14px;
   }
+}
+
+img {
+  width: 100%;
 }
 
 /*
@@ -135,7 +139,11 @@ h3 {
   padding: 50px;
 }
 #site-head #larouta-logo {
+  display: block;
   width: 218px;
+}
+#site-head a {
+  text-decoration: none;
 }
 
 #site-foot {
