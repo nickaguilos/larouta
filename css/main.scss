@@ -3,19 +3,20 @@
     Coded: Nick Aguilos Studio | January 2025    
 */
 
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 // Utilities
-@use 'utilities/colors';
-@use 'utilities/baseline';
-@use 'utilities/variables';
-@use 'utilities/grid';
-@use 'utilities/typography';
-@use 'utilities/button';
-@use 'utilities/swiper';
+// @use 'utilities/colors';
+@import "utilities/baseline";
+// @use 'utilities/variables';
+// @use 'utilities/grid';
+// @use 'utilities/typography';
+// @use 'utilities/button';
+// @use 'utilities/swiper';
 
-
-// Components
-@use 'components/site-head';
-@use 'components/site-foot';
+// // Components
+@import "components/site-head";
+@import "components/site-foot";
 // Pages
-@use 'pages/home';
-@use 'pages/teaser';
+@import "pages/home";
+@import "pages/teaser";
