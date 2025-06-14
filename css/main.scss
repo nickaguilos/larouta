@@ -3,20 +3,17 @@
     Coded: Nick Aguilos Studio | January 2025    
 */
 
+// Utilities
+@import "utilities/variables";
+
+// Import Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// Utilities
-// @use 'utilities/colors';
+// Baseline La Routa Theme
 @import "utilities/baseline";
-// @use 'utilities/variables';
-// @use 'utilities/grid';
-// @use 'utilities/typography';
-// @use 'utilities/button';
-// @use 'utilities/swiper';
 
 // // Components
 @import "components/site-head";
 @import "components/site-foot";
 // Pages
 @import "pages/home";
-@import "pages/teaser";

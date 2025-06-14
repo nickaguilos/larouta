@@ -1,7 +1,45 @@
-// Variables
+/*
 
-// Responsive Breakpoints
-$sm: 480px;
-$md: 768px;
-$lg: 1024px;
-$xl: 1280px; 
+	La Routa '25 Variable Overrides
+
+*/
+
+// Colors
+$black: #000000;
+$dark-gray: #111111;
+$primary-blue: #0706c9;
+$primary-red: #c92116;
+$primary-yellow: #f6cc15;
+$blue-1: #6f87a6;
+$blue-2: #d1dae7;
+$white: #ffffff;
+
+// Bootstrap Color Override
+// $primary: $primary-blue;
+// $secondary: $primary-red;
+$theme-colors: (
+    "primary": $primary-blue,
+    "secondary": $primary-red,
+    "dark": $dark-gray,
+);
+
+$border: $blue-2;
+
+// Spacer Overrides
+$spacer: 1rem !default; // Default spacer value
+
+$spacers: (
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 4,
+    7: $spacer * 5,
+    8: $spacer * 6,
+    9: $spacer * 7,
+    10: $spacer * 8,
+);
+
+// Component Overrides
