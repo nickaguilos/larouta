@@ -14664,6 +14664,11 @@ img {
   width: 100%;
 }
 
+#woven-divider {
+  background: url("/images/graphics/head-pattern-2.png") repeat-x;
+  height: 92px;
+}
+
 /*
 
 	La Routa '25 Variables
