@@ -2,11 +2,15 @@
 	Button
 */
 
-@use 'colors' as v;
+@use 'colors' as c;
 
-.button {
-	display: inline-block;
-	background-color: v.$primary-blue;
+.btn {
+	border-radius: 0;
+}
+
+.btn-primary {
+	background-color: c.$primary-blue;
+	border-color: c.$primary-blue;
 	color: #fff;
 	padding: 12px 21px;
 	text-decoration: none;

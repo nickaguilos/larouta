@@ -3,15 +3,21 @@
     Coded: Nick Aguilos Studio | January 2025    
 */
 
+@use "sass:meta";
+
+@if meta.global-variable-exists("sass-deprecation-warnings") {
+  $sass-deprecation-warnings: false !global;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Utilities
-// @use 'utilities/colors';
+@import 'utilities/colors';
 @import "utilities/baseline";
 // @use 'utilities/variables';
 // @use 'utilities/grid';
 // @use 'utilities/typography';
-// @use 'utilities/button';
+@import 'utilities/button';
 // @use 'utilities/swiper';
 
 // // Components
