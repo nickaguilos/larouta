@@ -14812,8 +14812,8 @@ img {
 .home #page-head img {
   width: 95px;
 }
-.home #image-scroller {
-  height: 400px;
+.home #image-scroller .carousel-item {
+  height: 388px;
 }
 .home #about-arws {
   display: flex;

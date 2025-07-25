@@ -29,7 +29,9 @@
 
 	// Image scroller
 	#image-scroller {
-		height: 400px;
+		.carousel-item {
+			height: 388px;
+		}
 	}
 
 	// About ARWS

@@ -13,8 +13,8 @@
 		href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
 		rel="stylesheet">
 
-	<!-- Swiper JS stylesheet load -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+	<!-- Bootstrap JS -->
+	<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 	<!-- Main stylesheet load -->
 	<link rel="stylesheet" href="../css/main.css">
@@ -72,38 +72,34 @@
 		</header>
 
 		<!-- Image Scroller -->
-		<section id="image-scroller" class="scroller swiper">
-			<div class="swiper-wrapper">
-				<a href="#" class="scroll-item swiper-slide">
-					<img src="https://picsum.photos/300/388" alt="Sample Image">
-				</a>
-				<a href="#" class="scroll-item swiper-slide">
-					<img src="https://picsum.photos/300/388" alt="Sample Image">
-				</a>
-				<a href="#" class="scroll-item swiper-slide">
-					<img src="https://picsum.photos/300/388" alt="Sample Image">
-				</a>
-				<a href="#" class="scroll-item swiper-slide">
-					<img src="https://picsum.photos/300/388" alt="Sample Image">
-				</a>
-				<a href="#" class="scroll-item swiper-slide">
-					<img src="https://picsum.photos/300/388" alt="Sample Image">
-				</a>
-				<a href="#" class="scroll-item swiper-slide">
-					<img src="https://picsum.photos/300/388" alt="Sample Image">
-				</a>
-			</div>
+		<section id="image-scroller" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="d-flex justify-content-center gap-3">
+        <img src="/images/carousel/carousel-img-1.jpg" class="img-fluid" style="max-width: 22%;">
+        <img src="/images/carousel/carousel-img-2.jpg" class="img-fluid" style="max-width: 22%;">
+        <img src="/images/carousel/carousel-img-3.jpg" class="img-fluid" style="max-width: 22%;">
+        <img src="/images/carousel/carousel-img-4.jpg" class="img-fluid" style="max-width: 22%;">
+      </div>
+    </div>
 
-			<!-- If we need pagination -->
-			<div class="swiper-pagination"></div>
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center gap-3">
+        <img src="/images/carousel/carousel-img-5.jpg" class="img-fluid" style="max-width: 22%;">
+        <img src="/images/carousel/carousel-img-1.jpg" class="img-fluid" style="max-width: 22%;">
+        <img src="/images/carousel/carousel-img-2.jpg" class="img-fluid" style="max-width: 22%;">
+        <img src="/images/carousel/carousel-img-3.jpg" class="img-fluid" style="max-width: 22%;">
+      </div>
+    </div>
+  </div>
 
-			<!-- If we need navigation buttons -->
-			<div class="swiper-button-prev"></div>
-			<div class="swiper-button-next"></div>
-
-			<!-- If we need scrollbar -->
-			<div class="swiper-scrollbar"></div>
-		</section>
+  <button class="carousel-control-prev" type="button" data-bs-target="#image-scroller" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#image-scroller" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+</section>
 
 		<!-- About ARWS -->
 		<section id="about-arws" class="container my-10">
