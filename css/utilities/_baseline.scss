@@ -11,6 +11,7 @@ html, body {
 	background-color: c.$dark-gray;
 	color: c.$blue-2;
 	box-sizing: border-box;
+	min-width: 400px;
 
 	@media screen and (max-width: 800px) {
 		font-size: 14px;

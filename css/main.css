@@ -14706,6 +14706,7 @@ html, body {
   background-color: #111111;
   color: #D1DAE7;
   box-sizing: border-box;
+  min-width: 400px;
 }
 @media screen and (max-width: 800px) {
   html, body {
@@ -14754,7 +14755,6 @@ img {
   background-image: url("../images/graphics/head-pattern-2.png");
   background-repeat: repeat-x;
   background-size: 1000px 36px;
-  padding: 50px;
   border-bottom: 1px solid #D1DAE7;
 }
 #site-head #larouta-logo {
@@ -14764,6 +14764,10 @@ img {
 }
 #site-head .navbar-toggler-icon {
   filter: invert(1);
+  width: 2em;
+  height: 2em;
+  position: relative;
+  top: -5px;
 }
 #site-head #site-nav {
   display: flex;
@@ -14799,15 +14803,7 @@ img {
   padding: 5vw 0;
 }
 .home #page-head .action-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-top: 1px solid #D1DAE7;
-  padding: 1em 0;
-  gap: 2em;
-}
-.home #page-head .action-bar sub {
-  flex: 2;
+  gap: 1em;
 }
 .home #page-head img {
   width: 95px;

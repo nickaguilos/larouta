@@ -8,7 +8,6 @@
 	background-image: url('../images/graphics/head-pattern-2.png');
 	background-repeat: repeat-x;
 	background-size: 1000px 36px;
-	padding: 50px;
 	border-bottom: 1px solid c.$border;
 
 	#larouta-logo {
@@ -20,6 +19,10 @@
 
 	.navbar-toggler-icon {
 		filter: invert(1);
+		width: 2em;
+		height: 2em;
+		position: relative;
+		top: -5px;
 	}
 
 	#site-nav {
