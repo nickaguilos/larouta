@@ -1,3 +1,12 @@
+<!-- 
+*************
+
+Designed and developed by Nick Aguilos Studio 2025 	
+facebook.com/NickAguilosStudio
+@nickaguilos
+
+*************
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,19 +37,31 @@
 
 	<!-- Site Head -->
 	<header id="site-head">
-		<a href="" id="larouta-logo">
-			<img src="../images/logos/larouta-white.png" alt="La Routa Logo">
-		</a>
+		<nav id="site-nav" class="navbar navbar-expand-md">
+			<div class="container-fluid">
+				<a href="#" class="navbar-brand" id="larouta-logo">
+				<img src="../images/logos/larouta-white.png" alt="La Routa Logo">
+				</a>
 
-		<nav id="site-nav">
-			<div>
-				<a href="#">Home</a>
-				<a href="#">Race Details</a>
-				<a href="#">About</a>
-				<a href="#">Live</a>
-				<a href="#">What is AR?</a>
+				<!-- Hamburger toggle button -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Nav links -->
+				<div class="collapse navbar-collapse" id="mainNavbar">
+					<ul class="navbar-nav ms-auto mb-2 mb-md-0">
+						<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Race Details</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Live</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">What is AR?</a></li>
+						<li class="nav-item">
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSdlmKopyQZkDl42YB60wKZR0wDzyYGd4pppCdcn1_SXt_w-5Q/viewform?usp=sharing&ouid=106019712854833244374" id="register-btn" class="btn btn-primary ms-3">Register</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-			<a href="#" id="register-btn" class="btn btn-primary">Register</a>
 		</nav>
 	</header>
 
@@ -73,33 +94,34 @@
 
 		<!-- Image Scroller -->
 		<section id="image-scroller" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="d-flex justify-content-center gap-3">
-        <img src="/images/carousel/carousel-img-1.jpg" class="img-fluid" style="max-width: 22%;">
-        <img src="/images/carousel/carousel-img-2.jpg" class="img-fluid" style="max-width: 22%;">
-        <img src="/images/carousel/carousel-img-3.jpg" class="img-fluid" style="max-width: 22%;">
-        <img src="/images/carousel/carousel-img-4.jpg" class="img-fluid" style="max-width: 22%;">
-      </div>
-    </div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+				<div class="d-flex justify-content-center gap-3">
+					<img src="/images/carousel/carousel-img-1.jpg" class="img-fluid" style="max-width: 22%;">
+					<img src="/images/carousel/carousel-img-2.jpg" class="img-fluid" style="max-width: 22%;">
+					<img src="/images/carousel/carousel-img-3.jpg" class="img-fluid" style="max-width: 22%;">
+					<img src="/images/carousel/carousel-img-4.jpg" class="img-fluid" style="max-width: 22%;">
+				</div>
+				</div>
 
-    <div class="carousel-item">
-      <div class="d-flex justify-content-center gap-3">
-        <img src="/images/carousel/carousel-img-5.jpg" class="img-fluid" style="max-width: 22%;">
-        <img src="/images/carousel/carousel-img-1.jpg" class="img-fluid" style="max-width: 22%;">
-        <img src="/images/carousel/carousel-img-2.jpg" class="img-fluid" style="max-width: 22%;">
-        <img src="/images/carousel/carousel-img-3.jpg" class="img-fluid" style="max-width: 22%;">
-      </div>
-    </div>
-  </div>
+				<div class="carousel-item">
+				<div class="d-flex justify-content-center gap-3">
+					<img src="/images/carousel/carousel-img-5.jpg" class="img-fluid" style="max-width: 22%;">
+					<img src="/images/carousel/carousel-img-1.jpg" class="img-fluid" style="max-width: 22%;">
+					<img src="/images/carousel/carousel-img-2.jpg" class="img-fluid" style="max-width: 22%;">
+					<img src="/images/carousel/carousel-img-3.jpg" class="img-fluid" style="max-width: 22%;">
+				</div>
+				</div>
+			</div>
 
-  <button class="carousel-control-prev" type="button" data-bs-target="#image-scroller" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#image-scroller" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  </button>
-</section>
+			<!-- Arrows -->
+			<button class="carousel-control-prev" type="button" data-bs-target="#image-scroller" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#image-scroller" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			</button>
+		</section>
 
 		<!-- About ARWS -->
 		<section id="about-arws" class="container my-10">
@@ -131,8 +153,7 @@
 						competing in ARWS Qualifiers and World Championships.
 					</p>
 
-					<a href="https://arworldseries.com/about/about-arws" class="btn btn-primary">Read More About The
-						ARWS</a>
+					<a href="https://arworldseries.com/about/about-arws" class="btn btn-primary">Read More About The ARWS</a>
 				</div>
 			</div>
 		</section>
@@ -220,18 +241,15 @@
 							alt="Love the Philippines">
 					</div>
 
-					<h2 class="display-4 fw-bold">
+					<h2 class="display-4 mb-4 fw-bold">
 						Biliran Island. The perfect backdrop for a race of this calibre
 					</h2>
 
-					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, mollitia explicabo? Sed
-						dolore
-						voluptate libero sequi inventore voluptates ex quasi explicabo enim possimus amet odio cumque,
-						optio
-						eos illum corrupti praesentium! Doloremque delectus illum suscipit dolorum nobis dolores
-						corrupti.
+					<p class="mb-5">
+						Biliran has a total land area of 536.01 square kilometres (206.95 sq mi), making it the fourth smallest province in the Philippines. The island lies off the northern coast of Leyte island across Biliran Strait. To the southeast is Carigara Bay, to the northeast is the Samar Sea, and across this sea is Samar. To the west is the Visayan Sea and Masbate lies 30 kilometres (19 mi) to the northwest. The province is composed of two major volcanic islands: the main island also named Biliran and Maripipi, a smaller island to the northwest. Other smaller islands include Higatangan and Dalutan. 
 					</p>
+
+					<a href="https://biliran.gov.ph/" class="btn btn-primary">More About Biliran</a>
 				</article>
 
 				<div class="col-5">

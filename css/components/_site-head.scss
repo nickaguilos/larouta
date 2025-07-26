@@ -5,33 +5,34 @@
 @use '../utilities/colors' as c;
 
 #site-head {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
 	background-image: url('../images/graphics/head-pattern-2.png');
 	background-repeat: repeat-x;
 	background-size: 1000px 36px;
 	padding: 50px;
-	gap: 1em;
 	border-bottom: 1px solid c.$border;
 
 	#larouta-logo {
 		display: block;
 		width: 218px;
+		padding: 0 !important;
 		// flex-grow: 1;
+	}
+
+	.navbar-toggler-icon {
+		filter: invert(1);
 	}
 
 	#site-nav {
 		// flex-grow: 2;
-		width: 70vw;
+		// width: 70vw;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 
 		a {
+			color: c.$white;
 			padding: 1em;
 		}
-
 	}
 
 	a {
