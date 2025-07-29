@@ -14805,6 +14805,9 @@ img {
 .home #page-head .action-bar {
   gap: 1em;
 }
+.home #page-head .action-bar > div:first-child {
+  width: 120px !important;
+}
 .home #page-head img {
   width: 95px;
 }
@@ -14817,6 +14820,18 @@ img {
 }
 .home #about-arws #arws-logo {
   border: 1px solid #D1DAE7;
+}
+
+/*
+
+	La Routa '25 Variables
+
+*/
+/*
+	Race details styles
+*/
+.race-details table td {
+  background-color: #111111 !important;
 }
 
 /*

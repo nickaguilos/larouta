@@ -1,0 +1,12 @@
+/*
+	Race details styles
+*/
+
+@use '../utilities/colors' as c;
+.race-details {
+	table {
+		td { 
+			background-color: c.$dark-gray !important;
+		}
+	}
+}

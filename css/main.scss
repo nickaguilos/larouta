@@ -25,6 +25,7 @@ $spacers: (
   12: 10rem
 );
 
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Utilities
@@ -41,4 +42,5 @@ $spacers: (
 @import "components/site-foot";
 // Pages
 @import "pages/home";
+@import "pages/race-details";
 @import "pages/teaser";
