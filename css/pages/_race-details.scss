@@ -9,4 +9,23 @@
 			background-color: c.$dark-gray !important;
 		}
 	}
+
+	@media (max-width: 768px) {
+  #details-tab {
+    flex-wrap: nowrap;         /* Prevent wrapping */
+    overflow-x: auto;          /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  }
+
+  #details-tab .nav-item {
+    flex: 0 0 auto;            /* Keep each item its natural width */
+  }
+}
+
+#details-tab::-webkit-scrollbar {
+  display: none;
+}
+#details-tab {
+  scrollbar-width: none; /* Firefox */
+}
 }

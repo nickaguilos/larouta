@@ -14834,6 +14834,22 @@ img {
 .race-details table td {
   background-color: #111111 !important;
 }
+@media (max-width: 768px) {
+  .race-details #details-tab {
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  }
+  .race-details #details-tab .nav-item {
+    flex: 0 0 auto; /* Keep each item its natural width */
+  }
+}
+.race-details #details-tab::-webkit-scrollbar {
+  display: none;
+}
+.race-details #details-tab {
+  scrollbar-width: none; /* Firefox */
+}
 
 /*
 
